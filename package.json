@@ -1,0 +1,19 @@
+{
+  "name": "apply-digital-code-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html-report": "cypress run --spec cypress/e2e/Tests/userFlow.cy.js --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "cypress": "^13.15.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "prettier": "^3.3.3"
+  }
+}
