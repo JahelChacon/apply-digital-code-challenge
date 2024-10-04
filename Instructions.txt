@@ -1,0 +1,6 @@
+Preconditions: 
+1. Having cypress, mochawesome and faker installed
+
+1. Open project in Cypress 
+2. Run cypress and run the userFlow.cy.js file 
+3. Option 2: run on terminal the command "npm run html-report"
